@@ -2,8 +2,7 @@
 🔸 Problem: Alien Dictionary
 
 Given a sorted list of words from an alien language, determine the character order used in that language.
-
-💡 Approach:
+ Approach:
 - Build a graph where each node is a character.
 - Compare adjacent words to extract ordering rules (edges in the graph).
 - Use Kahn's algorithm for topological sorting to find a valid order.
